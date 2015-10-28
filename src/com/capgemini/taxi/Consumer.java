@@ -34,7 +34,7 @@ public class Consumer implements Observer {
 
 			if (i == timeCatchTaxi - 1) {
 				if (checkDistanceX < 1000 && checkDistanceY < 1000) {
-					System.out.println("My position is : " + x + " " + y);
+					System.out.println("My position is : x=" + x + " y=" + y);
 					System.out.println("I waited for taxi : " + timeCatchTaxi + "s");
 					System.out.println("Nearest taxi position is : " + nearestTaxi);
 				} else {

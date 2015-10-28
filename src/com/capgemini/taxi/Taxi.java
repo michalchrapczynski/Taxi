@@ -53,7 +53,7 @@ public class Taxi {
 
 	@Override
 	public String toString() {
-		return "Taxi [x=" + x + ", y=" + y + "]";
+		return "Taxi x=" + x + ", y=" + y;
 	}
 
 }
